@@ -18,6 +18,14 @@ The FrozenLake environment in OpenAI Gym is a grid world problem that challenges
   * Intermediate states: Grid cells 
     forming a layout that the agent must traverse.
 
+### ACTIONS:
+The agent has 4 possible actions:
+
+* 0: Left
+* 1: Down
+* 2: Right
+* 3: Up
+
 ### TRANSITION PROBABILITIES:
 Slippery surface with a 33.3% chance of moving as intended and a 66.6% chance of moving in orthogonal directions. For example, if the agent intends to move left, there is a
 
@@ -57,6 +65,11 @@ The agent receives a reward of 1 for reaching the goal state, and a reward of 0 
   * axis: The axis along which to find the maximum value.
 
 ## MONTE CARLO CONTROL FUNCTION:
+```
+Developed by:Paarkavy B
+Reg No:212221230072
+```
+
 ```
 from numpy.lib.function_base import select
 from collections import defaultdict
